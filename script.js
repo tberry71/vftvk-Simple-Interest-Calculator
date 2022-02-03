@@ -26,7 +26,7 @@ function compute() {
     "</span>" +
     ", <br> in the year " +
     "<span class='highlight'>" +
-    yearNow +
+    year +
     "</span>";
 }
 
