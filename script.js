@@ -13,21 +13,21 @@ function compute() {
     var result=document.getElementById("result");
     result.innerHTML =
     "If you deposit " +
-    "<span class='highlight'>" +
+    "<mark class='highlight'>" +
     principal +
-    "</span>." +
+    "</mark>." +
     ", <br> at an interest rate of " +
-    "<span class='highlight'>" +
+    "<mark class='highlight'>" +
     rate +
-    "</span>%." +
+    "</mark>%." +
     "<br> You will receive an amount of " +
-    "<span class='highlight'>" +
+    "<mark class='highlight'>" +
     interest +
-    "</span>" +
+    "</mark>" +
     ", <br> in the year " +
-    "<span class='highlight'>" +
+    "<mark class='highlight'>" +
     year +
-    "</span>";
+    "</mark>";
 }
 
 function updateRate() 
